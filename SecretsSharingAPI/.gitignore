@@ -1,0 +1,60 @@
+# git ignore file
+
+# Git merge results
+*.orig
+*.rej
+
+# Logs
+[Ll]ogs
+*/logs/*
+securityLogs
+*.deploylog
+
+# VS
+*.user
+*.suo
+.vs/
+.vscode/
+_ReSharper*/
+
+/*.slnf
+/*.sln.DotSettings
+
+# Binaries
+[Bb]in
+obj
+precompiled
+ViewsBase
+/SharedPackages
+packages
+*/Backup/*
+Assemblies
+.release*
+
+# Idea
+*idea/
+!/.idea/
+**/.vs/**
+
+# Deploy
+/Deploy/PsakeDeploy/Conf/dbConfig.xml
+/Deploy/PsakeDeploy/Conf/topology.xml
+/lastBuildWarnings.log
+/UnitTestResult/*.xml
+/Deploy/PsakeDeploy/BillyLocal/build.properties
+**/settings/clusterconfig
+
+# Nuget
+*.nupkg
+*.DotSettings
+/NDependOut
+/NDependOut1
+/Webz.ndproj
+/Docs/pages/_book/
+
+
+# Nuke.Build
+.tmp
+artifacts
+
+.idea
